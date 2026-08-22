@@ -2,6 +2,41 @@
 
 ## 📌 Project Overview
 Ingested, parsed, and analyzed authentication logs in **Splunk Cloud** using custom **Search Processing Language (SPL)** to detect brute-force attacks, build real-time SOC monitoring dashboards, and configure automated alert rules.
+# Splunk SIEM Log Analysis
+
+A hands-on SOC Analyst project using **Splunk Cloud** to analyze authentication logs and detect suspicious login activity.
+
+## 🛠️ Tools
+- Splunk Cloud
+- SPL
+- MITRE ATT&CK
+
+## 🔍 Detection Use Cases
+- Failed login attempts
+- Brute-force attacks
+- Suspicious IP addresses
+- Successful login after multiple failures
+- User authentication activity
+
+## 📊 SOC Dashboard
+Created a Splunk dashboard to monitor:
+- Login activity
+- Failed vs successful logins
+- Suspicious IPs
+- Security alerts
+- Event severity
+
+## 🧠 MITRE ATT&CK
+Brute-force activity mapped to:
+
+**T1110 – Brute Force**
+
+## 🎯 Skills Demonstrated
+SIEM Monitoring • SPL • Log Analysis • Threat Detection • Alert Triage • Incident Investigation • MITRE ATT&CK
+
+## 👨‍💻 Author
+**Dhananjay Kumar Sharma**  
+Cyber Security Student | Aspiring SOC Analyst
 
 ---
 
