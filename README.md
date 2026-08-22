@@ -1,70 +1,77 @@
-# SIEM Security Log Analysis & SOC Threat Monitoring
+# Splunk SIEM Log Analysis & SOC Threat Monitoring
 
 ## 📌 Project Overview
-Ingested, parsed, and analyzed authentication logs in **Splunk Cloud** using custom **Search Processing Language (SPL)** to detect brute-force attacks, build real-time SOC monitoring dashboards, and configure automated alert rules.
-# Splunk SIEM Log Analysis
 
-A hands-on SOC Analyst project using **Splunk Cloud** to analyze authentication logs and detect suspicious login activity.
+A hands-on SOC Analyst project using **Splunk Cloud** to ingest, analyze, and monitor authentication logs. Custom **SPL queries** were used to detect suspicious login activity and brute-force attacks, create SOC dashboards, and configure automated alerts.
 
 ## 🛠️ Tools
+
 - Splunk Cloud
-- SPL
+- SPL (Search Processing Language)
 - MITRE ATT&CK
 
 ## 🔍 Detection Use Cases
+
 - Failed login attempts
 - Brute-force attacks
 - Suspicious IP addresses
 - Successful login after multiple failures
 - User authentication activity
-
-## 📊 SOC Dashboard
-Created a Splunk dashboard to monitor:
-- Login activity
-- Failed vs successful logins
-- Suspicious IPs
-- Security alerts
-- Event severity
+- Security event severity analysis
 
 ## 🧠 MITRE ATT&CK
-Brute-force activity mapped to:
 
 **T1110 – Brute Force**
 
-## 🎯 Skills Demonstrated
-SIEM Monitoring • SPL • Log Analysis • Threat Detection • Alert Triage • Incident Investigation • MITRE ATT&CK
+Brute-force authentication activity was mapped to the MITRE ATT&CK framework.
 
-## 👨‍💻 Author
-**Dhananjay Kumar Sharma**  
-Cyber Security Student | Aspiring SOC Analyst
+## 📊 SOC Dashboard
 
----
+The dashboard provides visibility into:
 
-## 📊 SOC Security Dashboard Visualizations
+- Login activity
+- Failed vs. successful logins
+- Suspicious IP addresses
+- User activity
+- Security alerts
+- Event severity
 
-### 1. Primary Security Dashboard
+### Dashboard
+
 ![SOC Dashboard Overview](Screenshot%202026-08-23%20015913.png)
 
-### 2. User & Threat IP Tracking
+### User & Threat IP Tracking
+
 ![User and Threat Analysis](Screenshot%202026-08-23%20015746.png)
 
-### 3. Log Ingestion & Parsing Panel
+### Log Ingestion & Parsing
+
 ![Log Ingestion](Screenshot%202026-08-23%20014432.png)
 
----
+## 🚨 Detection & Alerting
 
-## 🚨 Alert Rules & Incident Analytics
+### Automated Alert Configuration
 
-### 4. Automated Alert Rule Configuration
 ![Alert Rule Setup](Screenshot%202026-08-23%20015310.png)
 
-### 5. Brute-Force Detection Query
+### Brute-Force Detection
+
 ![Brute Force Analysis](Screenshot%202026-08-23%20020441.png)
 
-### 6. Threat Level Severity Mapping
+### Threat Severity Mapping
+
 ![Threat Level Mapping](Screenshot%202026-08-23%20021047.png)
 
----
+## 📄 Security Report
 
-## 📄 Executive PDF Security Report
-📄 **[View Full SOC Security Dashboard Report (PDF)](soc_security_dashboard-2026-08-22.pdf)**
+[View Full SOC Security Dashboard Report](soc_security_dashboard-2026-08-22.pdf)
+
+## 🎯 Skills Demonstrated
+
+**SIEM Monitoring • SPL • Log Analysis • Threat Detection • Alert Triage • Incident Investigation • MITRE ATT&CK**
+
+## 👨‍💻 Author
+
+**Dhananjay Kumar Sharma**
+
+Cyber Security Student | Aspiring SOC Analyst
